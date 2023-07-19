@@ -5,13 +5,13 @@ function headerNav(el) {
   <div class="header">
       <div class="header__visible">
         <div class="header__visible__logo-container">
-          <a class="header__visible__logo-container__logo" href="https://marianoaguilar13.github.io/dwf-desafio-m4/index.html" >MARIANO</a>
+          <a class="header__visible__logo-container__logo" href="https://marianoaguilar13.github.io/Mi-Portfolio/index.html" >MARIANO</a>
         </div>
         <div class="header__links">
-          <a class="header__links__link" href="https://marianoaguilar13.github.io/dwf-desafio-m4/portfolio.html" 
+          <a class="header__links__link" href="https://marianoaguilar13.github.io/Mi-Portfolio/portfolio.html" 
             >Portfolio</a
           >
-          <a class="header__links__link" href="https://marianoaguilar13.github.io/dwf-desafio-m4/servicios.html" 
+          <a class="header__links__link" href="https://marianoaguilar13.github.io/Mi-Portfolio/servicios.html" 
             >Servicios</a
           >
         </div>
@@ -25,13 +25,13 @@ function headerNav(el) {
       </div>
       <div class="ventana-links">
         <button class="ventana-links__boton-cerrar">x</button>
-        <a class="ventana-links__link link-uno" href="https://marianoaguilar13.github.io/dwf-desafio-m4/portfolio.html"
+        <a class="ventana-links__link link-uno" href="https://marianoaguilar13.github.io/Mi-Portfolio/portfolio.html"
           >Portfolio</a
         >
-        <a class="ventana-links__link link-dos" href="https://marianoaguilar13.github.io/dwf-desafio-m4/servicios.html" 
+        <a class="ventana-links__link link-dos" href="https://marianoaguilar13.github.io/Mi-Portfolio/servicios.html" 
           >Servicios</a
         >
-        <a class="ventana-links__link link-tres" href="https://marianoaguilar13.github.io/dwf-desafio-m4/contacto.html"
+        <a class="ventana-links__link link-tres" href="https://marianoaguilar13.github.io/Mi-Portfolio/contacto.html"
           >Contacto</a
         >
       </div>
