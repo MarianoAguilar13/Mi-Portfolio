@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-hero {
+  min-height: 900px;
+  background-color: black;
+}
+
+@media (min-width: 769px) {
+  .header-hero {
+    background: linear-gradient(107.17deg, blueviolet 30%, black 60%);
+  }
+}
+
+.contenedor-form {
+  background-color: black;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form {
+    background: linear-gradient(107.17deg, blueviolet 30%, black 60%);
+  }
+}

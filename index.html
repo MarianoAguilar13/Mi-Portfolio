@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="codigo-binario.png" />
+    <title>Mariano - Dev</title>
+
+    <link rel="stylesheet" href="./componentes/header.css" />
+    <script defer src="./componentes/header.js"></script>
+
+    <link rel="stylesheet" href="./componentes/formulario.css" />
+    <script defer src="./componentes/formulario.js"></script>
+
+    <link rel="stylesheet" href="./componentes/footer.css" />
+    <script defer src="./componentes/footer.js"></script>
+
+    <link rel="stylesheet" href="./pages/index.css" />
+    <script defer src="./pages/index.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header-hero">
+      <header class="header-container"></header>
+      <section class="hero-banner">
+        <h3 class="hero-banner__titulo-hola">Bienvenido</h3>
+        <h1 class="hero-banner__titulo-soy">A mi Portfolio</h1>
+      </section>
+    </section>
+    <section class="presentacion">
+      <div class="presentacion__texto">
+        <h2 class="presentacion__texto__titulo">Soy Mariano</h2>
+        <p class="presentacion__texto__descripcion">
+          Hola, mi nombre es Mariano Aguilar, vivo de Baradero (Bs As).
+          Actualmente terminando la carrera de desarrollo web Fullstack de Apx,
+          en último año de analista en informática en la UNSADA y tercer año de
+          licenciatura en informática en la UNSADA. Me encanta la programación y
+          cada día quiero aprender más, para mejorar mis habilidades y poder
+          crear los proyectos que me proponga.
+        </p>
+      </div>
+      <img
+        class="presentacion__imagen"
+        src="./imagenes/computadora-personal.png"
+        alt="imagen-presentacion"
+      />
+    </section>
+    <section class="mis-servicios">
+      <h2 class="mis-servicios__titulo">
+        Habilidades y tecnologías que utilizo
+      </h2>
+      <div class="mis-servicios__container"></div>
+    </section>
+    <footer class="footer-container"></footer>
+  </body>
+
+  <template id="template">
+    <div class="servicios">
+      <img class="servicios__imagen" src="" alt="imagen-servicio" />
+      <h4 class="servicios__titulo"></h4>
+      <p class="servicios__descripcion"></p>
+    </div>
+  </template>
+</html>

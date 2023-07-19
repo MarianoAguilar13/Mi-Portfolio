@@ -1,0 +1,89 @@
+.contenedor-form {
+  display: flex;
+  flex-direction: column;
+  padding: 82px 33px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 400;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form {
+    display: grid;
+    grid-template-columns: 200px 356px;
+    height: 600px;
+    margin: 0 auto;
+  }
+}
+
+.contenedor-form__titulo {
+  font-size: 32px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form__titulo {
+    font-size: 32px;
+    margin: 0;
+    align-self: start;
+    margin-top: 14px;
+  }
+}
+
+.contenedor-form__form {
+  min-width: 310px;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form__form {
+    min-width: 356px;
+  }
+}
+
+.contenedor-form__fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 769px) {
+  .contenedor-form {
+    align-self: flex-start;
+  }
+}
+
+.contenedor-form__label {
+  font-size: 13px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+.contenedor-form__input-text {
+  width: 100%;
+  height: 45px;
+  border: blueviolet 5px outset;
+  border-radius: 4px;
+}
+
+.contenedor-form__textarea {
+  width: 100%;
+  height: 113px;
+  border: blueviolet 5px outset;
+  border-radius: 4px;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  background-color: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  margin-top: 60px;
+}

@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-hero {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/vector-gratis/copia-espacio-azul-circuitos-fondo-digital_23-2148821699.jpg?w=740");
+  background-size: 210vh;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-banner__titulo-hola {
+  margin: 0;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 48px;
+}
+
+.hero-banner__titulo-soy {
+  margin: 0;
+  color: white;
+  font-size: 36px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 540px;
+  background-color: whitesmoke;
+  padding: 60px 40px;
+}
+
+@media (min-width: 769px) {
+  .presentacion {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 540px;
+    padding: 60px 100px;
+  }
+}
+
+.presentacion__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentacion__texto__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.presentacion__texto__descripcion {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.presentacion__imagen {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .presentacion__imagen {
+    display: flex;
+    width: 45%;
+    margin-left: 80px;
+  }
+}
+
+.mis-servicios {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1300px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios {
+    min-height: 600px;
+  }
+}
+
+.mis-servicios__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.mis-servicios__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 450px) {
+  .servicios {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 769px) {
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+}
+
+.servicios__imagen {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+
+.servicios__titulo {
+  text-align: center;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.servicios__descripcion {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}

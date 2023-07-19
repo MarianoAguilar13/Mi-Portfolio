@@ -1,0 +1,147 @@
+.header__visible {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__visible__logo-container {
+  display: flex;
+  height: 140px;
+  width: 50%;
+  align-items: center;
+}
+
+.header__visible__logo-container__logo {
+  color: white;
+  font-size: 36px;
+  margin-left: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__visible__logo-container__logo:visited {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header__visible__logo-container__logo {
+    font-size: 24px;
+  }
+}
+
+.header__links {
+  display: flex;
+  height: 140px;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .header__links {
+    display: none;
+  }
+}
+
+.header__links__link {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  margin-right: 40px;
+  margin-left: 40px;
+  border-bottom: solid 3px white;
+}
+
+.header__links__link:visited {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .header__links__link {
+    display: none;
+  }
+}
+
+.header__visible__boton-desplegar-container {
+  display: flex;
+  height: 140px;
+  width: 50%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+@media (min-width: 769px) {
+  .header__visible__boton-desplegar-container {
+    display: none;
+  }
+}
+
+.header__visible__boton-desplegar {
+  background-color: black;
+  padding: 0;
+}
+
+@media (min-width: 769px) {
+  .header__visible__boton-desplegar {
+    display: none;
+  }
+}
+
+.header__visible__boton-desplegar__barras {
+  background-color: white;
+  border: solid 2px black;
+  width: 36px;
+  height: 8px;
+}
+
+.ventana-links {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(54, 170, 216);
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 769px) {
+  .ventana-links {
+    display: none;
+  }
+}
+
+.ventana-links__boton-cerrar {
+  position: absolute;
+  right: 0px;
+  background-color: rgb(54, 170, 216);
+  border: solid 2px black;
+  font-size: 42px;
+}
+
+@media (min-width: 769px) {
+  .ventana-links__boton-cerrar {
+    position: absolute;
+    display: none;
+  }
+}
+
+.ventana-links__link {
+  font-size: 48px;
+  text-decoration: none;
+  color: black;
+}
+
+.link-uno {
+  margin-top: 200px;
+}
+
+.link-tres {
+  margin-bottom: 200px;
+}

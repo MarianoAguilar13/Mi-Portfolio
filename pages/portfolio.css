@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-hero {
+  height: 20vh;
+  background-color: black;
+}
+
+@media (min-width: 769px) {
+  .header-hero {
+    display: inherit;
+    height: 100vh;
+    background: linear-gradient(
+      107.17deg,
+      rgb(54, 170, 216) 30%,
+      blueviolet 60%
+    );
+  }
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-banner__titulo {
+  display: none;
+  margin-top: 80px;
+  color: white;
+  font-size: 36px;
+}
+
+@media (min-width: 769px) {
+  .hero-banner__titulo {
+    display: inherit;
+  }
+}
+
+.mis-servicios {
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1000px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios {
+    min-height: 500px;
+  }
+}
+
+.mis-servicios__titulo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.mis-servicios__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .mis-servicios__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 450px) {
+  .servicios {
+    width: 80%;
+    margin: 40px auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 40px;
+  }
+}
+
+.servicios__imagen {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+
+.servicios__titulo {
+  text-align: center;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.servicios__descripcion {
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.servicios__link {
+  text-decoration: none;
+  color: white;
+}
+
+.servicios__link:visited {
+  text-decoration: none;
+  color: orangered;
+}
